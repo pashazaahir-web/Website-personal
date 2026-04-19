@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil Pasha</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    /* FRAME AESTHETIC */
+    .frame {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto 20px;
+      border-radius: 50%;
+      padding: 5px;
+      background: linear-gradient(45deg, #38bdf8, #a78bfa, #22c55e);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: glow 3s infinite linear;
+    }
+
+    @keyframes glow {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0f172a;
+    }
+
+    h1 { font-size: 2rem; margin-bottom: 10px; }
+    p { color: #cbd5f5; margin-bottom: 20px; }
+
+    .info {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .info div {
+      background: #0f172a;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .label { font-weight: bold; color: #38bdf8; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #38bdf8;
+      color: #000;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover { background: #0ea5e9; }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <!-- FRAME + FOTO -->
+      <div class="frame">
+        <img src="WhatsApp Image 2026-04-14 at 14.52.25 - Salin.jpeg" class="profile-img" alt="Foto Pasha">
+      </div>
+
+      <h1>Mhd Zaahir Pasha Margolang</h1>
+      <p>Mahasiswa Bisnis Digital yang sedang belajar membuat website</p>
+
+      <div class="info">
+        <div><span class="label">Nama:</span> Mhd Zaahir Pasha Margolang</div>
+        <div><span class="label">Kelas:</span> Bisnis Digital C 2024</div>
+        <div><span class="label">NIM:</span> 7243550014</div>
+      </div>
+      <h1>untuk lebih lanjut pencet tombol dibawah ini</h1>
+
+      <a href="https://wa.me/6282274828989" class="btn">Hubungi Saya</a>
+    </div>
+
+      <section class="container">
+    <div class="card">
+      <h3>Alasan Memilih Prodi Bisnis Digital</h3>
+      <p>Saya memilih program studi Bisnis Digital karena memiliki prospek karier yang luas dan relevan di era digital saat ini. Lulusan prodi ini memiliki peluang kerja yang beragam seperti digital marketer, analis bisnis digital, e-commerce specialist, hingga menjadi digitalpreneur. Selain itu, UNIMED sebagai perguruan tinggi dengan akreditasi "A" menawarkan kurikulum yang sesuai dengan kebutuhan industri 4.0, sehingga saya yakin dapat memperoleh ilmu dan keterampilan yang mampu membuat saya siap bersaing di dunia kerja, baik di tingkat nasional maupun global.</p>
+    </div>
+  </section>
+
+  <footer>
+      <p>© 2026 Profil Pasha | Dibuat dengan HTML & CSS</p>
+    </footer>
+  </div>
+
+</body>
+</html>
